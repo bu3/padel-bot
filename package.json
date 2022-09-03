@@ -1,0 +1,22 @@
+{
+  "name": "padel-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "book"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bu3/padelbot.git"
+  },
+  "author": "Fabio Mangione",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bu3/padelbot/issues"
+  },
+  "homepage": "https://github.com/bu3/padelbot#readme",
+  "devDependencies": {
+    "cypress": "^10.7.0"
+  }
+}
