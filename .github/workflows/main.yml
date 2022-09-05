@@ -12,3 +12,6 @@ jobs:
       # and run all Cypress tests
       - name: Cypress run
         uses: cypress-io/github-action@v4
+        env:
+          CYPRESS_PADEL_PWD: ${{ secrets.CYPRESS_PADEL_PWD }}
+          CYPRESS_PADEL_USER : ${{ secrets.CYPRESS_PADEL_USER }}
